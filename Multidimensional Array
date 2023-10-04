@@ -1,0 +1,14 @@
+//simple code for a multidimensional Array
+public class Dimensional_Arrays {
+    public static void main(String[]args) {
+        //initialize the 2D array
+        int[][] myNumbers = {{1,2,3,4},{5,6,7}};
+        //loop the array for display
+        for (int[] myNumber : myNumbers) {
+            for (int j = 0; j < myNumber.length; j++) {
+                //output the elements in the  arrays
+                System.out.println(myNumber[j]);
+            }
+        }
+    }
+}
